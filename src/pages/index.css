@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    top: 0;
+    left: 0;
+}
+
+body{
+    top: 0;
+}
+
+.home{
+    height: 100vh;
+    background-image: url('../images/bg.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.searchbar{
+    margin-top: 5%;
+    position: absolute;
+    width: 60%;
+    margin-left: 22.5%;
+    height: 5rem;
+}
+.form{
+    width: 50%;
+    margin: auto;
+    height: 80%;
+    display: flex;
+}
+.inputBox{
+    width: 80%;
+    height: 80%;
+    border: none;
+    font-size: 1.5rem;
+    padding: 5px;
+    padding-left: 1.5rem;
+    outline: none;
+    border-radius: 15px 0px 0px 15px;
+}
+.submitBtn{
+    height: 96%;
+    width: 10%;
+    background-color: white;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+}
+.trending{
+    /* display: none; */
+    background-color: white;
+    border-radius: 5px;
+    height: 70%;
+    width: 60%;
+    margin-top: 10% !important;
+    margin: auto;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.trendHeading{
+    font-size: 1.2rem;
+    margin-left: 2%;
+}
+.cardDeck{
+    display: flex;
+    flex-direction: row;
+    /* background-color: bisque; */
+    height: 45%;
+}
+.card{
+    margin: auto;
+    margin-top: 0;
+    width: 17%;
+    height: 80%;
+}
+.cardInfo{
+    margin-top: 0px;
+    font-size: 0.8rem;
+}
+.cardImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    display: block;
+}
+.suggHeading{
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+}
+.sugg{
+    margin-left: 2%;
+    margin-top: -10px;
+}
+
+/* search */
+
+.searchInp{
+    height: 70%;
+    border-width: 1px;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+.searchBtn{
+    height: 89%;
+    border-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
+.searchBar{
+    margin-top: 3%;
+    display: flex;
+    width: 100% ;
+    margin-left: 0;
+    /* background-color: aquamarine; */
+}
+.searchForm{
+    /* background-color: beige; */
+    margin-left: 25%;
+    width: 50% !important;
+}
+.logo{
+    /* background-color: aqua; */
+    width: fit-content;
+    margin-right: 2%;
+}
+.logoImg{
+    width: 6rem;
+}
+
+.searchResHeading{
+    font-size: 2rem;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+}
+.searchDown{
+    display: flex;
+}
+
+.searchSide{
+    /* background-color: aqua; */
+    width: 20%;
+    margin-top: 10%;
+}
+.resSide{
+    /* background-color: aquamarine; */
+    width: 80%;
+    margin-top: 10%;
+    margin-right: 5%;
+    padding-left: 5%;
+}
+.searchRes{
+    padding-left: 10%;
+}
+.form{
+    width: 100%;
+}
+
+.form-check-input{
+    width: 2rem !important;
+}
+.brandFilter h3{
+    margin-bottom: 0.5rem;
+}
+.star{
+    color: lightgrey;
+}
+.checked{
+    color: #FDD33D;
+}
+
+.ratingFilter{
+    /* background-color: blueviolet; */
+    width: 50%;
+}
+.searchCard{
+    width: 20%;
+    height: 80%;
+    position: relative;
+}
+.searchCardDeck{
+    /* background-color: aquamarine; */
+    height: 40%;
+    margin-bottom: 10%;
+}
+.searchCardImg{
+    height: 20.2rem;
+    width: 13.66rem;
+}
+.prodinfo{
+    font-size: 1rem;
+}
+.prodPrice{
+    font-size: 1rem;
+    margin-top: -10px;
+    color: rgb(109, 132, 255);
+}
+.starRating{
+    margin-top: -15px;
+    margin-bottom: 5%;
+}
+.like{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 83%;
+    margin-top: 5%;
+}
+.viewProd{
+    position: absolute;
+    margin-top: 123.6%;
+    background-color: rgba( 109, 132, 255, 0.6);
+    width: 98.6%;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 0px 0px 5px 5px;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.searchCard:hover .viewProd{
+    opacity: 1;
+}
+
+
+.viewTxt{
+    font-size: 1.2rem;
+    margin: auto;
+}
+
+
+/* Media Quey */
+
+@media only screen and (max-width: 600px) {
+    
+    .searchbar {
+        /* background-color: aqua; */
+        width: 100%;
+        margin-left: 0;
+    }
+    .form{
+        width: 90%;
+        /* background-color: aquamarine; */
+        height: 60%;
+    }
+    .submitBtn{
+        width: 12%;
+        height: 100%;
+        padding-right: 5%;
+    }
+    .trending{
+        margin-top: 20% !important;
+        width: 90%;
+    }
+    .cardDeck{
+        display: flex;
+    }
+    .card{
+        width: 45%;
+    }
+    .cardNone{
+        display: none;
+    }
+
+    .searchBar{
+        /* background-color: aqua; */
+        display: flex;
+    }
+    .searchForm{
+        /* background-color: aquamarine; */
+        width: 60% !important;
+        margin-left: 15%;
+        height: 60%;
+    }
+    .searchBtn{
+        height: 95%;
+        width: 18%;
+    }
+    .logo{
+        width: 20%;
+        margin-right: -0.5rem;
+        margin-top: 4%;
+    }
+    .logoImg{
+        width: 4rem;
+    }
+    .searchDown{
+        margin-top: 20%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .searchSide{
+        width: 40%;
+    }
+    .resSide{
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        width: 60%;
+    }
+
+    .searchRes{
+        width: 100%;
+    }
+
+    .searchResHeading{
+        width: 100% !important;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+    .ratingFilter{
+        margin-left: -10px;
+        width: 100% !important;
+    }
+    .filterHeading{
+        /* background-color: aqua; */
+        font-size: 0.8rem;
+    }
+    .form-check {
+        width: 100%;
+    }
+    .form-check-input{
+        font-size: 0.7rem;
+    }
+    .form-check-label{
+        margin-right: 2rem;
+        font-size: 0.7rem;
+    }
+    .star{
+        width: 2px !important;
+    }
+    .searchCardDeck{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 68%;
+    }
+    .searchCardImg{
+        margin-left: -4rem;
+        height: 18.2rem;
+        width: 12rem;
+    }
+    .prodinfo{
+        width: max-content;
+        margin-left: -20px;
+        font-size: 0.7rem;
+    }
+    .prodPrice{
+        font-size: 0.8rem;
+        margin-left: -20px;
+    }
+    .starRating{
+        margin-left: -20px;
+    }
+    .viewProd{
+        margin-top: 238%;
+        width: 180%;
+        margin-left: -60%;
+    }
+  }
