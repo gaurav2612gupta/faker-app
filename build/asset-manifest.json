@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/faker-app/static/css/main.aa0580df.css",
-    "main.js": "/faker-app/static/js/main.c6b65ba0.js",
-    "static/media/bg.png": "/faker-app/static/media/bg.a96d0def52ddc051dca1.png",
-    "index.html": "/faker-app/index.html",
-    "main.aa0580df.css.map": "/faker-app/static/css/main.aa0580df.css.map",
-    "main.c6b65ba0.js.map": "/faker-app/static/js/main.c6b65ba0.js.map"
+    "main.css": "/fake/static/css/main.35ce7d5f.css",
+    "main.js": "/fake/static/js/main.2d4643a0.js",
+    "static/media/bg.png": "/fake/static/media/bg.a96d0def52ddc051dca1.png",
+    "index.html": "/fake/index.html",
+    "main.35ce7d5f.css.map": "/fake/static/css/main.35ce7d5f.css.map",
+    "main.2d4643a0.js.map": "/fake/static/js/main.2d4643a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa0580df.css",
-    "static/js/main.c6b65ba0.js"
+    "static/css/main.35ce7d5f.css",
+    "static/js/main.2d4643a0.js"
   ]
 }
