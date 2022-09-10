@@ -29,7 +29,7 @@ const Search = () => {
                     <button type="submit" className='submitBtn searchBtn'><FaSistrix size={30} /></button>
                 </form>
                 <div className='logo' >
-                     <Link to = "/" > <img src={require('../images/logo.jpg')} alt="" className='logoImg' /> </Link>
+                     <Link to = "../fakerApp" > <img src={require('../images/logo.jpg')} alt="" className='logoImg' /> </Link>
                 </div>
             </div>  
             <div className="row searchDown">
