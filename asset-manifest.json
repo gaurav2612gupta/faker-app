@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/gaurav2612gupta/faker-app/static/css/main.3b24bc5c.css",
-    "main.js": "/gaurav2612gupta/faker-app/static/js/main.c6b65ba0.js",
-    "static/media/bg.png": "/gaurav2612gupta/faker-app/static/media/bg.a96d0def52ddc051dca1.png",
-    "index.html": "/gaurav2612gupta/faker-app/index.html",
-    "main.3b24bc5c.css.map": "/gaurav2612gupta/faker-app/static/css/main.3b24bc5c.css.map",
-    "main.c6b65ba0.js.map": "/gaurav2612gupta/faker-app/static/js/main.c6b65ba0.js.map"
+    "main.css": "/faker-app/static/css/main.aa0580df.css",
+    "main.js": "/faker-app/static/js/main.c6b65ba0.js",
+    "static/media/bg.png": "/faker-app/static/media/bg.a96d0def52ddc051dca1.png",
+    "index.html": "/faker-app/index.html",
+    "main.aa0580df.css.map": "/faker-app/static/css/main.aa0580df.css.map",
+    "main.c6b65ba0.js.map": "/faker-app/static/js/main.c6b65ba0.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b24bc5c.css",
+    "static/css/main.aa0580df.css",
     "static/js/main.c6b65ba0.js"
   ]
 }
