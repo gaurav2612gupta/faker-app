@@ -6,7 +6,7 @@ import Search from "./pages/Search"
 import './pages/index.css'
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL} >
       <Routes>
           <Route exact path="fakerApp" element={<Home />} />
           <Route exact path="search" element={<Search />} />
