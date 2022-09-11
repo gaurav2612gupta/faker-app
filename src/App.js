@@ -7,10 +7,10 @@ import './pages/index.css'
 const App = () => {
   return (
     <div>
-          <Route path="/" component = {Home} exact />
-          <Route path="/search" component = {Search} exact />
+          <Route exact path="/" component = {Home} />
+          <Route path="/search" component = {Search} />
     </div>
   )
 }
 
-export default App
+export default App;
